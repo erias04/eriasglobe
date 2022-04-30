@@ -1,7 +1,17 @@
 {
-  "name": "@eriasglobe/eriasglobe",
-  "version": "0.0.0",
+  "name": "eriasglobe",
+  "version": "0.0.1",
+  "description": "globe",
+  "main": "./bin/main.js",
+  "exports": "./bin/main.js",
+  "directories": {
+    "lib": "src",
+    "bin": "bin"
+  },
   "scripts": {
-    "test": "node index.js"
-  }
+    "build": "npx gulp compile",
+    "watch": "npx gulp watch"
+  },
+  "author": "Elias Cerne elias@eliascerne.com",
+  "license": "ISC"
 }
